@@ -1,0 +1,14 @@
+# Android signing secrets — NEVER commit these
+*.jks
+*.keystore
+*.p12
+certification.txt
+local.properties
+# keep credentials out
+*password*
+*secret*
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
